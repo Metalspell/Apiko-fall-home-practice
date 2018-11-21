@@ -22,6 +22,27 @@
   color: #61dafb;
 }
 
+#root {
+  background: lime;
+  opacity: 0.4;
+  display: flex;
+  width: 100%;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+          align-items: center;
+}
+
+#root button {
+  width: 10%;
+}
+
+#root div {
+  margin: 20px 0px 20px 0px;
+  color: red;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
